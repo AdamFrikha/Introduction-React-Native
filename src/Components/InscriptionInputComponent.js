@@ -16,7 +16,7 @@ const InscriptionInputComponent = ({navigation}) => {
             Alert.alert(
                 "Error",
                 "Passwords mismatched",
-                { text: "OK", onPress: () => console.log("OK Pressed") }
+                [{ text: "OK", onPress: () => console.log("OK Pressed") }]
             );
         }
         else {

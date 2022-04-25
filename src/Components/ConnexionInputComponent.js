@@ -15,7 +15,7 @@ const ConnexionInputComponent = (props) => {
             Alert.alert(
                 "Error",
                 "Incorrect login",
-                { text: "OK", onPress: () => console.log("OK Pressed") }
+                [{ text: "OK", onPress: () => console.log("OK Pressed") }]
             );
         }
         else {
